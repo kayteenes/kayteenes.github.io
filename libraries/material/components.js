@@ -118,6 +118,7 @@ prx.types.material_tabbar_fixed = {
 		if(prx.componentsHelper.getProp(item.shadowEnabled,'boolean')) {
 			cR += '#'+_id+' .material-tabbar-fixed-list { box-shadow: 0 '+(1*prx.componentsHelper.getScale(item.lib))+'px '+(3*prx.componentsHelper.getScale(item.lib))+'px '+(1*prx.componentsHelper.getScale(item.lib))+'px '+ prx.componentsHelper.getProp(item.shadowColor,'color-shadow') + '; } ';
 		}
+		cR += '#'+_id+' .material-tabbar-fixed-list { background-color: '+prx.componentsHelper.getProp(item.backgroundColor,'color-background')+'; } ';
 		cR += '#' + _id + ' .material-tabbar-fixed-list-item { width: '+width+'px; background-color: '+prx.componentsHelper.getProp(item.backgroundColor,'color-background')+'; }';
 		cR += '#' + _id + ' .material-tabbar-fixed-list-item label { font-size: '+prx.componentsHelper.getProp(item.textSize,'num-text-size')+'px; color: '+prx.componentsHelper.getProp(item.textColor,'color-text')+'; '+prx.componentsHelper.getProp(item.textFont,'font-family')+'}';
 		cR += '#' + _id + ' .material-tabbar-fixed-list-item-input:checked + label { color: '+prx.componentsHelper.getProp(item.textColorActive,'color-text')+';}';
@@ -130,7 +131,7 @@ prx.types.material_tabbar_fixed = {
 		}
 		cR += '</style>';		
 		
-		cR += '<ul class="material-tabbar-fixed-list liveUpdate-shadowColor changeProperty-shadowColor">';
+		cR += '<ul class="material-tabbar-fixed-list liveUpdate-shadowColor changeProperty-shadowColor liveUpdate-backgroundColor changeProperty-backgroundColor">';
 		
 		$.each(item.tabs, function(i,elm){			
 			if(typeof(elm.linkedscreen) == "undefined") { elm.linkedscreen = -1; }

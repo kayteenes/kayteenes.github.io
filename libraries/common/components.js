@@ -2702,7 +2702,10 @@ prx.types.image = {
         if (prx.editor) {
 
             var img = document.createElement("img");
-            img.onload = function (e) {
+
+			img.style.position = "absolute";
+
+			img.onload = function (e) {
 
                 document.body.removeChild(img);
 
