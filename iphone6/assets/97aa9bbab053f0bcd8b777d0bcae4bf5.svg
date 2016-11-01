@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="20px" viewBox="0 0 14 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>later</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M2,3.00500065 C2,2.44995412 2.4556644,2 2.99539757,2 L11.0046024,2 C11.5543453,2 12,2.44032292 12,3.00500065 L12,17.457156 C12,18.0122025 11.671936,18.1705602 11.2514495,17.7968149 L7,14.0179557 L2.74855052,17.7968149 C2.33513748,18.164273 2,18.0218337 2,17.457156 L2,3.00500065 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="10" height="16" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="later" stroke="#5279BB" stroke-width="2">
+            <use id="share" mask="url(#mask-2)" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>
