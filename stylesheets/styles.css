@@ -1,12 +1,14 @@
 body {
   background-color: #fff;
   padding:50px;
-  font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 14px/1.5; 
+  font-family: 'Signika', sans-serif;
   color:#727272;
   font-weight:400;
 }
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: 'Kumar One', cursive;
   color:#222;
   margin:0 0 20px;
 }
@@ -64,8 +66,8 @@ blockquote {
 }
 
 code, pre {
-  font-family: 'Kumar One', cursive;
-  font-family: 'Signika', sans-serif;
+  font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
+  color:#333;
   font-size:12px;
 }
 
