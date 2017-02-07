@@ -1,15 +1,15 @@
 body {
-  background-color: #A39D98;
+  background-color: #3A4C64;
   padding:50px;
   font: 14px/1.5; 
   font-family: 'Signika', sans-serif;
-  color:#2D2E2E;
+  color:#F1F1F1;
   font-weight:400;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Kumar One', cursive;
-  color:#2D2E2E;
+  color:#F1F1F1;
   margin:0 0 10px;
 }
 
@@ -26,21 +26,21 @@ h1 {
 }
 
 h2 {
-  color:#2D2E2E;
+  color:#F1F1F1;
 }
 
 h3, h4, h5, h6 {
-  color:#2D2E2E;
+  color:#F1F1F1;
 }
 
 a {
-  color:#2D2E2E;
+  color:#F1F1F1;
   text-decoration:none;
 }
 
 a:hover {
   color:#A39D98;
-  background-color:#2D2E2E;
+  background-color:#F1F1F1;
   padding-top:6px;
   padding-right:8px;
   padding-left:8px;
@@ -71,7 +71,7 @@ blockquote {
 
 code, pre {
   font-family: 'Signika', sans-serif;
-  color:#272838;
+  color:#F1F1F1;
   font-size:12px;
 }
 
